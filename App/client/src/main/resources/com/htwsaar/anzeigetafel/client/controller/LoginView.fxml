@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane fx:id="borderPane" maxWidth="350.0" minWidth="350.0" prefHeight="224.0" prefWidth="346.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.htwsaar.anzeigetafel.client.controller.LoginController">
+   <right>
+      <GridPane prefHeight="249.0" prefWidth="350.0" BorderPane.alignment="CENTER">
+         <columnConstraints>
+            <ColumnConstraints halignment="RIGHT" hgrow="SOMETIMES" maxWidth="325.0" minWidth="10.0" prefWidth="95.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="230.0" minWidth="10.0" prefWidth="171.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="325.0" minWidth="10.0" prefWidth="85.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints maxHeight="106.0" minHeight="10.0" prefHeight="54.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="126.0" minHeight="12.0" prefHeight="29.0" />
+            <RowConstraints maxHeight="133.0" minHeight="10.0" prefHeight="52.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="159.0" minHeight="10.0" prefHeight="39.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="197.0" minHeight="10.0" prefHeight="26.0" />
+            <RowConstraints maxHeight="172.0" minHeight="9.0" prefHeight="25.0" />
+         </rowConstraints>
+         <children>
+            <TextField id="ip_id" fx:id="ipfield" prefHeight="13.0" prefWidth="149.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <Label text="Username: ">
+               <font>
+                  <Font name="Monospaced Regular" size="12.0" />
+               </font></Label>
+            <TextField fx:id="usernameTextfield" GridPane.columnIndex="1" />
+            <Label layoutX="18.0" layoutY="236.0" text="Password: " GridPane.rowIndex="1">
+               <font>
+                  <Font name="Monospaced Regular" size="12.0" />
+               </font>
+            </Label>
+            <TextField fx:id="passwordTextfield" layoutX="91.0" layoutY="231.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <Label layoutX="18.0" layoutY="270.0" text="IP: " GridPane.rowIndex="2">
+               <font>
+                  <Font name="Monospaced Regular" size="12.0" />
+               </font>
+            </Label>
+            <TextField fx:id="tafelfield" layoutX="104.0" layoutY="310.0" prefHeight="13.0" prefWidth="149.0" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+            <Label layoutX="75.0" layoutY="315.0" text="Tafel:" GridPane.rowIndex="3">
+               <font>
+                  <Font name="Monospaced Regular" size="12.0" />
+               </font>
+            </Label>
+            <Pane prefHeight="64.0" prefWidth="171.0" GridPane.columnIndex="1" GridPane.rowIndex="4">
+               <children>
+                  <Button fx:id="loginBtnId" alignment="CENTER" contentDisplay="CENTER" layoutX="95.0" layoutY="9.0" mnemonicParsing="false" onAction="#login" prefHeight="27.0" prefWidth="76.0" text="Log in" />
+                  <Button fx:id="singupBtnId" alignment="CENTER" contentDisplay="CENTER" layoutX="1.0" layoutY="9.0" mnemonicParsing="false" onAction="#signup" prefHeight="27.0" prefWidth="78.0" text="Sign in" />
+               </children>
+            </Pane>
+         </children>
+      </GridPane>
+   </right>
+</BorderPane>

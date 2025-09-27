@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane fx:id="borderPane" maxWidth="350.0" minWidth="142.0" prefHeight="163.0" prefWidth="160.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.client.login.LoginController">
+   <left>
+      <Pane prefHeight="132.0" prefWidth="160.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button id="connectBtn" alignment="CENTER" contentDisplay="CENTER" layoutX="13.0" layoutY="14.0" mnemonicParsing="false" onAction="#loginButtonAction" prefHeight="27.0" prefWidth="134.0" text="foward message" />
+            <Button id="connectBtn" alignment="CENTER" contentDisplay="CENTER" layoutX="13.0" layoutY="49.0" mnemonicParsing="false" onAction="#loginButtonAction" prefHeight="27.0" prefWidth="134.0" text="Delete message" />
+            <Button id="connectBtn" alignment="CENTER" contentDisplay="CENTER" layoutX="13.0" layoutY="84.0" mnemonicParsing="false" onAction="#loginButtonAction" prefHeight="27.0" prefWidth="134.0" text="Edit message" />
+            <Button id="connectBtn" alignment="CENTER" contentDisplay="CENTER" layoutX="13.0" layoutY="118.0" mnemonicParsing="false" onAction="#loginButtonAction" prefHeight="27.0" prefWidth="134.0" text="Edit message" />
+         </children>
+      </Pane>
+   </left>
+</BorderPane>

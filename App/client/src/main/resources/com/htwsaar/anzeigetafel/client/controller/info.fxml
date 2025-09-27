@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="root" maxHeight="194.0" maxWidth="464.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="132.0" prefWidth="284.0" styleClass="bg" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.htwsaar.anzeigetafel.client.controller.InfoController">
+    <children>
+        <Button fx:id="okBtn" layoutX="103.0" layoutY="72.0" mnemonicParsing="false" onAction="#cancel" prefHeight="30.0" prefWidth="86.0" styleClass="book" text="OK" AnchorPane.leftAnchor="103.0" AnchorPane.rightAnchor="95.0">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Button>
+        <Text fx:id="displayText" layoutX="63.0" layoutY="51.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="label" text="Test" textAlignment="CENTER" wrappingWidth="158.0">
+            <font>
+                <Font name="System Bold" size="24.0" />
+            </font>
+        </Text>
+        <Button fx:id="yesBtn" layoutX="39.0" layoutY="72.0" mnemonicParsing="false" onAction="#onYesBtnClicked" prefHeight="30.0" prefWidth="72.0" styleClass="book" text="Yes">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Button>
+        <Button fx:id="noBtn" layoutX="180.0" layoutY="72.0" mnemonicParsing="false" onAction="#onNoBtnClicked" prefHeight="30.0" prefWidth="66.0" styleClass="book" text="No">
+         <font>
+            <Font size="14.0" />
+         </font>
+        </Button>
+    </children>
+    <effect>
+        <Glow level="0.13" />
+    </effect>
+</AnchorPane>

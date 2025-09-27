@@ -1,0 +1,16 @@
+@font-face {
+    -fx-font-family: myFont;
+    src:url(../Font/Montserrat-Black.ttf);
+
+}.button {
+
+
+    -fx-opacity: 1.0;
+    -fx-font-family: Montserrat-Black;
+    -fx-background-radius: 6;
+    -fx-background-color: #F24E1E;
+}
+
+.button:hover {
+    -fx-opacity: 0.6;
+}

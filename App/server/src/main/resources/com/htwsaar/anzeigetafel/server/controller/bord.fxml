@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="root" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1001.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.htwsaar.anzeigetafel.server.controller.BordServerController">
+    <children>
+        <Button layoutX="71.0" layoutY="622.0" mnemonicParsing="false" onAction="#addBordBtn" prefHeight="48.0" prefWidth="233.0" styleClass="FunctionButton" text="add bord">
+            <font>
+                <Font name="System Bold" size="22.0" />
+            </font>
+        </Button>
+
+        <Button layoutX="335.0" layoutY="622.0" mnemonicParsing="false" onAction="#deleteBordBtn" prefHeight="48.0" prefWidth="233.0" styleClass="FunctionButton" text="delete bord">
+            <font>
+                <Font name="System Bold" size="22.0" />
+            </font>
+        </Button>
+
+        <Text fx:id="guestTitleId" layoutX="71.0" layoutY="94.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="label" text="Bords" wrappingWidth="134.99610137939453">
+            <font>
+                <Font name="System Bold" size="26.0" />
+            </font>
+        </Text>
+        <TableView fx:id="bordTable" layoutX="71.0" layoutY="130.0" prefHeight="460.0" prefWidth="859.0" style="-fx-background-color: #191717;" styleClass="table-view"  AnchorPane.leftAnchor="71.0" AnchorPane.rightAnchor="71.0">
+            <columns>
+                <TableColumn fx:id="bordIdSer" maxWidth="2500.0" minWidth="1.0" prefWidth="2.0" text="ID" />
+                <TableColumn fx:id="bordnameSer" prefWidth="233.0" text="Username" />
+            </columns>
+            <columnResizePolicy>
+                <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+            </columnResizePolicy>
+        </TableView>
+        <TextField fx:id="seachBarID" layoutX="643.0" layoutY="74.0" prefHeight="25.0" prefWidth="287.0" promptText="bordname" styleClass="nameFill"  />
+        <Text fx:id="searchTextid" layoutX="578.0" layoutY="91.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="label" text="Search" wrappingWidth="73.99610137939453">
+            <font>
+                <Font name="System Bold" size="18.0" />
+            </font>
+        </Text>
+    </children>
+
+
+
+</AnchorPane>

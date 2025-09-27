@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="218.0" prefWidth="178.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.htwsaar.anzeigetafel.server.controller.">
+   <children>
+      <Button layoutX="37.0" layoutY="136.0" mnemonicParsing="false"  prefHeight="25.0" prefWidth="87.0" text="Add" />
+      <Label layoutX="15.0" layoutY="28.0" prefHeight="17.0" prefWidth="87.0" text="Bordname" />
+      <TextField fx:id="bordName" layoutX="12.0" layoutY="53.0" prefHeight="17.0" prefWidth="137.0" styleClass="styling\darkMode\BookingWindow.css" text="Enter the Bord Name: " />
+   </children>
+</AnchorPane>

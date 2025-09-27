@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="anchorPane" focusTraversable="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="64.0" prefWidth="790.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.htwsaar.anzeigetafel.client.controller.MessagePanel">
+   <children>
+      <Label fx:id="username" layoutX="23.0" layoutY="17.0" prefHeight="17.0" prefWidth="140.0" styleClass="textOnBookingContainer" text="Name">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="OPEN_HAND" />
+         </cursor>
+      </Label>
+      <Button fx:id="canceledBooking" layoutX="-11.0" layoutY="11.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="12.0" style="-fx-background-color: #da0000;" />
+      <Label fx:id="messageContent" layoutX="23.0" layoutY="34.0" prefHeight="17.0" prefWidth="659.0" text="Message">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="OPEN_HAND" />
+         </cursor>
+      </Label>
+      <Label fx:id="timestamp" layoutX="701.0" layoutY="17.0" styleClass="textOnBookingContainer" text="Timestamp">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="OPEN_HAND" />
+         </cursor>
+      </Label>
+   </children>
+   <effect>
+      <DropShadow height="0.0" radius="0.0" width="0.0" />
+   </effect>
+   <cursor>
+      <Cursor fx:constant="OPEN_HAND" />
+   </cursor>
+</AnchorPane>

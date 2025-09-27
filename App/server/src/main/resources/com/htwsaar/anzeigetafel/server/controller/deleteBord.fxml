@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="225.0" prefWidth="181.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.htwsaar.anzeigetafel.server.controller.DeleteBordController">
+   <children>
+      <Button layoutX="37.0" layoutY="136.0" mnemonicParsing="false" onAction="#deletBrodBtn" prefHeight="25.0" prefWidth="87.0" text="Delet" />
+      <Label layoutX="15.0" layoutY="28.0" prefHeight="17.0" prefWidth="87.0" text="Bord ID" />
+      <TextField fx:id="bordId" layoutX="12.0" layoutY="53.0" prefHeight="17.0" prefWidth="137.0" styleClass="styling\darkMode\BookingWindow.css" text="Enter the Bord ID: " />
+   </children>
+</AnchorPane>

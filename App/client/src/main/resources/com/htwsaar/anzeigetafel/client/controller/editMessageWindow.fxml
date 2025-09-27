@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="root" prefHeight="195.0" prefWidth="489.0" styleClass="bg" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.htwsaar.anzeigetafel.client.controller.EditMessageController">
+
+    <children>
+        <Label layoutX="165.0" layoutY="22.0" prefHeight="35.0" prefWidth="160.0" text="Edit Message">
+            <font>
+                <Font name="System Bold" size="24.0" />
+            </font>
+        </Label>
+        <TextField fx:id="messageField" layoutX="16.0" layoutY="76.0" prefHeight="43.0" prefWidth="457.0" promptText="Message" styleClass="nameFill" />
+      <Button fx:id="savebtn" layoutX="113.0" layoutY="138.0" mnemonicParsing="false" onAction="#saveClick" prefHeight="35.0" prefWidth="119.0" text="Save" />
+      <Button fx:id="cancelbtn" layoutX="259.0" layoutY="138.0" mnemonicParsing="false" onAction="#cancelClick" prefHeight="35.0" prefWidth="119.0" text="Cancel" />
+    </children>
+</AnchorPane>
